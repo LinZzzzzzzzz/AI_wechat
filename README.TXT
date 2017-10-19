@@ -1,1 +1,1 @@
-AI_wechat is a 
+AI_wechat is a communication robot!
