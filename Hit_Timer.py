@@ -4,7 +4,7 @@ import time
 
 
 GOD='Paco'  #creator
-chatroom_name='test'    #chatroom name
+chatroom_name='约系统'    #chatroom name
 
 
 #target_time[0] is hour; target_time[1] is minute; target_time[2] is second;
@@ -15,6 +15,9 @@ target_time = [13,0,0]
 itchat.auto_login(hotReload=True)
 itchat.get_chatrooms(update=True)
 chatroom_name_number = itchat.search_chatrooms(name=chatroom_name)[0]['UserName']
+#f =  open("chatroom_name_number.txt", "a+")
+#.write(chatroom_name_number+'\n')
+#f.close()
 
 
 #communication between creator and AI
